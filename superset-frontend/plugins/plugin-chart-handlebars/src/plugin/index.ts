@@ -38,7 +38,7 @@ export default class HandlebarsChartPlugin extends ChartPlugin {
   constructor() {
     const metadata = new ChartMetadata({
       description: t('Write a handlebars template to render the data'),
-      name: t('Handlebars'),
+      name: t('Oscillas Handlebars'),
       thumbnail,
       exampleGallery: [{ url: example1 }, { url: example2 }],
     });
