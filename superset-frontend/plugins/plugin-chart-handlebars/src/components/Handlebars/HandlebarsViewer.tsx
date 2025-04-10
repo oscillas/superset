@@ -22,6 +22,7 @@ import moment from 'moment';
 import { useMemo, useState } from 'react';
 import { isPlainObject } from 'lodash';
 import Helpers from 'just-handlebars-helpers';
+import HandlebarsGroupBy from 'handlebars-group-by';
 
 export interface HandlebarsViewerProps {
   templateSource: string;
@@ -89,3 +90,4 @@ Handlebars.registerHelper('stringify', (obj: any, obj2: any) => {
 });
 
 Helpers.registerHelpers(Handlebars);
+HandlebarsGroupBy.register(Handlebars);

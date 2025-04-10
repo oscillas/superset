@@ -1,7 +1,7 @@
 {
   "name": "@superset-ui/plugin-chart-handlebars",
-  "version": "0.18.25",
-  "description": "Superset Chart - Write a handlebars template to render the data",
+  "version": "0.18.25~0.0.1",
+  "description": "Superset Chart - Oscillas Modified - Write a handlebars template to render the data",
   "sideEffects": false,
   "main": "lib/index.js",
   "module": "esm/index.js",
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/apache/superset.git",
+    "url": "https://github.com/oscillas/superset.git",
     "directory": "superset-frontend/plugins/plugin-chart-handlebars"
   },
   "keywords": [
@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "handlebars": "^4.7.7",
+    "handlebars-group-by": "^1.0.1",
     "just-handlebars-helpers": "^1.0.19"
   },
   "peerDependencies": {
