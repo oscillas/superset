@@ -366,7 +366,7 @@ class Chart extends Component {
         : this.props.formData,
       resultType: isPivot ? 'post_processed' : 'full',
       resultFormat: format,
-      force: true,
+      force: false,
       ownState: this.props.ownState,
     });
   }
