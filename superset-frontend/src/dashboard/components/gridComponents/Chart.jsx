@@ -366,7 +366,7 @@ const Chart = props => {
         formData: isFullCSV ? { ...formData, row_limit: maxRows } : formData,
         resultType: isPivot ? 'post_processed' : 'full',
         resultFormat: format,
-        force: true,
+        force: false,
         ownState: props.ownState,
       });
     },
